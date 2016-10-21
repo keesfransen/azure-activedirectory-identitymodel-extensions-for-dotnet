@@ -95,6 +95,7 @@ namespace Microsoft.IdentityModel.Tokens
         internal const string IDX10652 = "IDX10652: The algorithm '{0}' is not supported.";
         internal const string IDX10653 = "IDX10653: The encryption algorithm '{0}' requires a key size of at least '{1}' bits. Key '{2}', is of size: '{3}'.";
         internal const string IDX10654 = "IDX10654: Decryption failed, exception from crypto operation: '{0}'.";
+        internal const string IDX10655 = "IDX10655: The SecurityKey provided for Aes Key Wrap must be a SymmetricSecurityKey. Type is: '{0}'.";
 
         // security keys
         internal const string IDX10700 = "IDX10700: Invalid RsaParameters: '{0}'. Both modulus and exponent should be present";
